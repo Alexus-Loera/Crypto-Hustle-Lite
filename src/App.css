@@ -1,0 +1,67 @@
+body {
+  background: black;
+}
+
+.whole-page {
+  padding: 50px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.icons {
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 25px 50px 75px 30px;
+}
+
+li.main-list {
+  padding: 25px;
+  border-bottom: solid 3px white;
+  font-size: larger;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 75px;
+}
+
+/* SideNav */
+.sidenav {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #232323;
+  padding: 15px 10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* News styling */
+.side-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-article {
+  margin: 10px 0;
+}
+
+.news-article a {
+  color: white;
+  text-decoration: none;
+}
+
+.news-article a:hover {
+  text-decoration: underline;
+}
